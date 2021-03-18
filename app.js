@@ -44,8 +44,7 @@ var message = "<p style='font-weight:bold;'> Hi. My name is John </p>";
     from: `${email}`,
     to: GMAIL_USER,
     subject: `${email} Requests Free consultation`,
-    html: `<img style="height:200px" src="https://c8.alamy.com/comp/P67CF1/view-of-an-eclectic-home-office-P67CF1.jpg">
-          <p><h1 style="display:inline">Name:</h1> <h2 style="display:inline">${firstName} ${lastName}</h2>
+    html: `<p><h1 style="display:inline">Name:</h1> <h2 style="display:inline">${firstName} ${lastName}</h2>
            <br><h1 style="display:inline">Email:</h1> <h2 style="display:inline">${email}</h2>
            <br><h1 style="display:inline">Request:</h1> <h2 style="display:inline">Free bookkeeping consultation.</h2>`
 

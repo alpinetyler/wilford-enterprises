@@ -13,7 +13,7 @@ a{
 /* Header */
 .header {
   width: 100vw;
-  background-color: #2d6187;
+  background-color: #7c9473;
   height: 100px;
   position: relative;
   /* padding: 0 0 4.5rem; */
@@ -31,7 +31,7 @@ a{
 
 .show{
   z-index: 10;
-  background-color: #2d6187;
+  background-color: #7c9473;
 }
 
 .menu {
@@ -52,7 +52,7 @@ a{
 
 /* Sections */
 .colored-section{
-  background-color: #28abb9;
+  background-color: #7c9473;
   color: #fff;
 }
 
@@ -71,7 +71,7 @@ a{
 .main-image {
   width: 100vw;
   display: block;
-  opacity: 60%;
+  opacity: 30%;
 }
 
 /* Headings */
@@ -84,7 +84,7 @@ a{
   font-family: 'Merriweather', serif;
   width: 100vw;
   font-size: 2.5rem;
-  color: #2d6187;
+  color: #7c9473;
   position: relative;
   margin-top: 15px;
   top: 10%;
@@ -107,9 +107,9 @@ a{
   font-family: 'Merriweather', serif;
   width: 100vw;
   font-size: 3.5rem;
-  color: #2d6187;
+  color: #7c9473;
   position: absolute;
-  top: 40%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -118,24 +118,24 @@ a{
   font-family: 'Merriweather', serif;
   width: 100vw;
   font-size: 3rem;
-  color: #2d6187;
+  color: #7c9473;
 }
 
 .more-info {
   font-family: 'Merriweather', serif;
   font-size: 2rem;
-  color: #2d6187;
+  color: #7c9473;
   position: absolute;
-  top: 50%;
+  top: 38%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border: #2d6187 1px solid;
+  border: #7c9473 1px solid;
   padding: 0 10px 0 10px;
 }
 
 .more-info:hover {
   background-color: white;
-  color: #2d6187;
+  color: #7c9473;
 }
 
 /* Features */
@@ -149,21 +149,21 @@ a{
 
 .fa-check-circle {
   font-size: 4em;
-  color: #28abb9;
+  color: #cfdac8;
 }
 
 .feature-icon {
   font-size: 4em;
-  color: #28abb9;
+  color: #7c9473 ;
 }
 
 .feature-icon:hover {
-  color: #2d6187;
+  color: #cfdac8;
 }
 
 /* Testimonials */
 #testimonials {
-  background-color: #2d6187;
+  background-color: #7c9473;
 }
 
 .testimonial-text {
@@ -181,6 +181,17 @@ a{
 /* Pricing Section */
 #pricing {
   padding: 100px;
+}
+
+.btn-color{
+  background-color: #7c9473;
+  border-color: #7c9473;
+}
+
+.btn-color:hover{
+  background-color: #cfdac8;
+  color: black;
+  border-color: #cfdac8;
 }
 
 .price-text {
@@ -243,15 +254,15 @@ a{
 .social-icon {
   padding: 0 10px;
   font-size: 24px;
-  color: #2d6187;
+  color: #7c9473;
 }
 
 .social-icon:hover {
-  color: #28abb9;
+  color: #cfdac8;
 }
 
 .copyright-text {
-  color: #2d6187;
+  color: #7c9473;
   margin: 20px;
   opacity: 60%;
 }
@@ -319,7 +330,7 @@ a{
       font-family: 'Merriweather', serif;
       width: 100vw;
       font-size: 1.9rem;
-      color: #2d6187;
+      color: #7c9473;
       position: relative;
       margin-top: 15px;
       top: 10%;
